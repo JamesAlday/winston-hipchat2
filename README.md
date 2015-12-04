@@ -1,4 +1,4 @@
-# winston-hipchat
+# winston-hipchat2
 
 [![NPM](https://nodei.co/npm/winston-hipchat.png)](https://nodei.co/npm/winston-hipchat/)
 
