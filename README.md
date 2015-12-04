@@ -2,12 +2,12 @@
 
 [![NPM](https://nodei.co/npm/winston-hipchat.png)](https://nodei.co/npm/winston-hipchat/)
 
-A [Hipchat][0] transport for [winston][1].
+A [Hipchat][0] API v2 transport for [winston][1].
 
 ## Usage
 ``` js
   var winston = require('winston')
-    , winstonHipchat = require('winston-hipchat').Hipchat
+    , winstonHipchat = require('winston-hipchat2').Hipchat
 
   winston.add(winstonHipchat, options)
 ```
@@ -36,7 +36,7 @@ Many options can be seen in the [Hipchat API docs](https://www.hipchat.com/docs/
 
 ``` bash
   $ npm install winston
-  $ npm install winston-hipchat
+  $ npm install winston-hipchat2
 ```
 
 ## Run Tests
